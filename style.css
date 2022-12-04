@@ -1,0 +1,416 @@
+
+
+html {
+	height: 100%;
+	/*Image only BG fallback*/
+	background-image: url('master_groph_7-9_22.jpg');
+	/*background = gradient + image pattern combo*/
+	/* background: linear-gradient(#1571eb99, #9b59b699); */
+	background-color: #d3aee8c2;
+	/* background: url("master_groph_7-9_22.jpg") no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	animation: html 1s;
+	/* background-color: linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));	 */
+}
+
+body {
+	font-family: montserrat, arial, verdana;
+	text-shadow: black 0 0 3px 0 ;
+	margin: 0;
+	/* cursor:wait; */
+
+}
+
+/* بکگراند پریج */
+.background  {
+	background-color: rgb(255, 255, 255);
+	width: 700px;
+	height: 900px;
+	position: relative;
+	border-radius: 10px;
+	margin:0 auto;
+	box-shadow: #9c9c9cac 0 0 10px 0px;
+
+}
+/* سر صفحه سلام */
+
+#header h2{
+	color: #000000d3;	
+	margin: 0 auto;
+	animation: header_h2 1s;
+	margin: 0 auto;
+	margin-left: 20px;
+
+}
+#about_me{
+	opacity: 0;
+	animation: b 1s;
+}
+@keyframes about_me{
+	from{
+		margin-left: 200px;opacity: 0;
+	}
+}
+@keyframes header_h2{
+	from{
+		margin-top: -20px;
+		opacity: 0;
+	}
+}
+ 
+#name{
+	opacity: 0;
+animation: x 2s;
+}
+ 
+#year_of_birth{
+	opacity: 0;
+animation:  x 2.5s;
+}
+ 
+#age{
+	opacity: 0;
+animation: x 2.9s;
+}
+
+
+@keyframes name{
+	from{
+		margin-left: 200px;opacity: 0;
+	}
+}
+
+@keyframes year_of_birth{
+	from{
+		margin-left: 200px;opacity: 0;
+	}
+}
+
+@keyframes age{
+	from{
+		margin-left: 200px;opacity: 0;
+	}
+}
+
+#hr_1{
+	opacity: 0;
+	
+ animation: x 1s;
+ transition: 0.4s;
+}
+
+/* انیمیشن خط */
+ @keyframes hr_1 {
+	from{opacity: 0; }
+}
+
+#hr_3{
+	opacity: 0;
+	
+ animation: x 1s;
+ transition: 0.4s;
+}
+
+/* انیمیشن خط */
+ @keyframes hr_3 {
+	from{opacity: 0; }
+}
+#hr_4{
+	opacity: 0;
+	
+ animation: x 1s;
+ transition: 0.4s;
+}
+
+/* انیمیشن خط */
+ @keyframes hr_4 {
+	from{opacity: 0; }
+}
+
+#summary_div{
+	float: left;
+
+}
+#summary{
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes summary {
+	from{ margin-left: 200px;opacity: 0;}
+}
+#summary_p{
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes summary_p {
+	from{ margin-left: 150px;opacity: 0;}
+}
+#Skill{
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes Skill {
+	from{ margin-left: 150px;opacity: 0;}
+}
+#work_experience {
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes work_experience {
+	from{ margin-left: 150px;opacity: 0;}
+}
+#work_experience_p {
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes work_experience_p {
+	from{ margin-left: 150px;opacity: 0;}
+}
+
+
+
+
+
+#hr_2{
+	opacity: 0;
+	animation: x 2s;
+}
+@keyframes hr_2 {
+	from{ opacity: 0;}
+}
+
+
+.meters{
+	margin-left: 20px;
+}
+
+.Ways_of_communication {
+	opacity: 0;
+	animation: y 2s;
+}
+@keyframes Ways_of_communication  {
+	from{margin-left: 200px; opacity: 0;}
+}
+
+#work_experience{
+	margin-left:20px;
+}
+
+
+
+
+
+
+#Layer_2{
+
+	display: none;
+
+}
+
+#Layer_1{
+	transition: 0.5s;
+	border-radius: 50%;
+	animation: x 1s;
+	opacity: 0;
+}
+@keyframes like{
+	from{opacity: 0;}
+}
+#Layer_1  :hover{
+	box-shadow: black 0 0 5px;
+	
+	/* cursor: pointer; */
+	
+}
+
+
+#Layer_2  :hover{
+	box-shadow: black 0 0 5px;
+
+	/* cursor: pointer; */
+}
+
+
+
+
+
+
+/* عکس من */
+#my_photos {
+	width: 0px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-right: 20px;
+	animation: my_photos2 2s;
+
+	margin-top: 0px;
+	border:  1px 1px 2px 3px solid #ffffff ;
+	
+	/* box-shadow: inset 0 0 5px black; */
+	transition: 0.5s;
+	float:right;
+	/* position: relative; */
+	
+}
+
+.about_me{
+	float: left;
+}
+
+ .my_photo{
+	transition: 0.5s;
+	border-radius: 44px;
+}
+
+
+
+
+/* استایل خط */
+hr{
+	animation: hr 1s ;
+}
+
+/* تایتل متن ها */
+.title {
+	color: #000000d3;
+	animation: title_any 3s ;
+	margin-left: 20px;
+	
+	
+}
+
+/* زیرمجموعه تایتل ها */
+.title2 {
+	color: #000000b4;
+	animation: title_any2 3s ;
+	margin-left: 20px;
+
+}
+
+
+
+
+.progress {
+  --progress: 0%;
+  width: 500px;
+  height: 20px;
+  /* margin: 9em auto; */
+  /* border: 2px solid #2299dd; */
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.progress .bar {
+  width: var(--progress);
+  border-radius: 10px;
+  height: 100%;
+  background: #8a59c5;
+    background-repeat: repeat;
+  transition: width 3s ease 1s;
+}
+/*  */
+.progress1 {
+	--progress: 0%;
+	width: 500px;
+	height: 20px;
+	/* margin: 9em auto; */
+	/* border: 2px solid #2299dd; */
+	border-radius: 10px;
+	padding: 0px;
+  }
+  
+  .progress1 .bar1 {
+	width: var(--progress);
+	border-radius: 10px;
+	height: 100%;
+	background: #8a59c5;
+	background-repeat: repeat;
+	transition: width 3s ease 1s;
+  }
+  /*  */
+  .progress2 {
+	--progress: 0%;
+	width: 500px;
+	height: 20px;
+	/* margin: 9em auto; */
+	/* border: 2px solid #2299dd; */
+	border-radius: 10px;
+	padding: 0px;
+  }
+  
+  .progress2 .bar2 {
+	width: var(--progress);
+	border-radius: 10px;
+	height: 100%;
+	background: #8a59c5;
+	background-repeat: repeat;
+	transition: width 3s ease 1s;
+  }
+  /*  */
+  .progress3 {
+	--progress: 0%;
+	width: 500px;
+	height: 20px;
+	/* margin: 9em auto; */
+	/* border: 2px solid #2299dd; */
+	border-radius: 10px;
+	padding: 0px;
+  }
+  
+  .progress3 .bar3 {
+	width: var(--progress);
+	border-radius: 10px;
+	height: 100%;
+	background:#8a59c5;
+	background-repeat: repeat;
+	transition: width 3s ease 1s;
+  }
+  
+  .bar p,.bar1 p,.bar2 p,.bar3 p{
+color: #ffffff;
+animation: p_tag 4s;
+margin-left: 10px;
+  }
+
+
+
+/* ------------------------------------ */
+
+@keyframes html{
+	from{
+		opacity: 0;
+	
+	}
+	to{	opacity: 100%; }
+}
+
+
+img{
+	width: 50px;
+}
+ul{
+	display: inline-block;
+}
+#icone li{
+	display: inline-block;
+	padding-left: 20px;
+}
+#icone{
+	animation: ico 1s;	
+
+}
+@keyframes ico{
+	from{
+		margin-top: -800px;
+	}
+}
+li{
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+
+
